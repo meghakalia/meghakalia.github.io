@@ -4,17 +4,38 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
+  <article class="post">
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <div class="entry">{{ post.excerpt }}</div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+    <img
+      src="{{ site.baseurl }}/images/UBC_20201002_PJ_0834c.jpg"
+      alt="Photo of Megha Kalia"
+      style="width: 320px"
+    />
 
-      <img
-        src="{{ site.baseurl }}/images/UBC_20201002_PJ_0834c.jpg"
-        alt="Photo of Megha Kalia" style="width: 400px;"/>
-    </article>
+    I am Megha Kalia, a PhD candidate at University of British Columbia (UBC),
+    Vancouver, Canada, who is working towards an ambitious goal of building an
+    Augmented Reality/ Mixed Reality (AR/MR) system for Robot Assisted Surgery
+    (RAS) and test it on human patients within the duration of my PhD. I work at
+    Robotics and Control Lab, Vancouver and am supervised by Prof. Tim
+    Salcudean, from UBC and Prof Nassir Navab from Technical University of
+    Munich, Germany. I research on the topics of computer vision, perception in
+    robotics, human computer interaction and human perception inspired AR/MR.
+    Out of all these topics human perception inspired AR/MR with the application
+    of Artificial Intelligence (AI) is closest to my heart. I am fortunate to
+    have a fantastic interdisciplinary team in Robotics and Control Lab,
+    Vancouver General Hospital (VGH) and Technical University of Munich (TUM),
+    Germany, working together towards making AR/MR for RAS a reality. What makes
+    us stand-out is our decades long excellent collaboration with Dr Peter
+    Black, a Urologist at VGH, who has tested many of our techniques during
+    robotic prostate surgeries at VGH. Such past paced execution of methods from
+    inception to implementation in surgery has kept me hooked over the years.
+    Thanks to our great inter-disciplinary collaborations, I have won awards
+    like Public Scholars Initiative and has also got one Outstanding Paper
+    Award. When I am not working you can find me either running, biking, or
+    reading some Tolstoy masterpiece.
+  </article>
   {% endfor %}
 </div>
