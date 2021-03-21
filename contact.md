@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Contact
 permalink: /contact/
 ---
 Robotics and Control Lab, Electrical and Computer Engineering, The University of British Columbia
