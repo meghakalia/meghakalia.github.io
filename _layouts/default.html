@@ -27,11 +27,22 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Biography</a>
-            <a href="{{ site.baseurl }}/publications/">Publications</a>
-            <a href="{{ site.baseurl }}/project/">Project</a>
-            <a href="{{ site.baseurl }}/Megha_Kalia_CV.pdf">CV</a>
-            <a href="{{ site.baseurl }}/contact/">Contact</a>
+            {% for btn in site.nav-buttons %}
+              {% if page.url == btn.url %}
+              <a
+                class="active"
+                href="{{ site.baseurl }}{{ btn.url }}"
+              >
+                {{ btn.text }}
+              </a>
+              {% else %}
+              <a
+                href="{{ site.baseurl }}{{ btn.url }}"
+              >
+                {{ btn.text }}
+              </a>
+              {% endif %}
+            {% endfor %}
           </nav>
         </header>
       </div>
