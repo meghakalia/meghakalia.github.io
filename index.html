@@ -2,17 +2,27 @@
 layout: default
 ---
 
-<div class="posts">
-  <article class="post">
+<div id="homepage">
+  <div id="top_updates">
+    <h3 class="update_item">Updates</h3>
+    <ul class="updates">
+      {% for update in site.data.updates limit:7 %}
+      {% include single_update.html only-summary="true" update=update %}
+      {% endfor %}
+    </ul>
+    <a class="update_item" href="{{ site.baseurl }}/updates/">Read More</a>
+  </div>
+
+  <div id="intro_box">
     <img
-      src="{{ site.baseurl }}/images/UBC_20201002_PJ_0834c.jpg"
+      id="bio_pic"
+      src="{{ site.baseurl }}/images/UBC_20201002_PJ_0834.jpg"
       alt="Photo of Megha Kalia"
-      style="width: 320px"
     />
 
-    <div class="entry">
+    <div class="biography">
       {% capture biography %}{% include biography.md %}{% endcapture %}
       {{ biography | markdownify }}
     </div>
-  </article>
+  </div>
 </div>

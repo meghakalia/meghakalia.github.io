@@ -312,6 +312,45 @@ footer {
   }  
 }
 
+#homepage {
+  display: flex;
+  flex-direction: row;
+
+  > * {
+    margin: 15px;
+  }
+
+  #top_updates {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    // border: 1px solid black;
+
+    .update_item {
+      padding-left: 30px;
+    }
+
+    .updates {
+      font-size: smaller;
+      padding-right: 20px;
+    }
+  }
+
+  #intro_box {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+
+    #bio_pic {
+      width: 100%;
+    }
+
+    .biography {
+      text-align: justify;
+    }
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

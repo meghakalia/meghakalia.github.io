@@ -1,0 +1,13 @@
+<li class="update">
+    <div class="head">
+        {% if include.update.url %}
+            <a href="{{update.url}}">{{ include.update.head }} </a>
+        {% else %}
+            {{ include.update.head }}
+        {% endif %}
+    </div>
+    <div class="date">{{ include.update.date }}</div>
+    {% if include.update.desc and include.showdesc %}
+        <div class="desc">{{ include.update.desc }}</div>
+    {% endif %}
+</li>

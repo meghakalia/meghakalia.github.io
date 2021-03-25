@@ -5,18 +5,6 @@ permalink: /updates/
 ---
 <ul class="updates">
     {% for update in site.data.updates %}
-    <li class="update">
-        <div class="head">
-            {% if update.url %}
-                <a href="{{update.url}}">{{ update.head }} </a>
-            {% else %}
-                {{ update.head }}
-            {% endif %}
-        </div>
-        <div class="date">{{ update.date }}</div>
-        {% if update.desc %}
-            <div class="desc">{{ update.desc }}</div>
-        {% endif %}
-    </li>
+    {% include single_update.html update=update showdesc="true" %}
     {% endfor %}
 </ul>
