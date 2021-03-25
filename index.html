@@ -4,7 +4,7 @@ layout: default
 
 <div id="homepage">
   <div id="top_updates">
-    <h3 class="update_item">Updates</h3>
+    <p class="heading update_item">Updates</p>
     <ul class="updates">
       {% for update in site.data.updates limit:7 %}
       {% include single_update.html only-summary="true" update=update %}
