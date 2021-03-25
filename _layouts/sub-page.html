@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<!-- Breadcrumbs begin -->
+{% assign locations = page.permalink | split: "/" %}
+{% assign current-menu = site.data.nav-menu %}
+{% assign partial-path = "/" %}
+
+<div class="breadcrumbs">
+  {% for loc in locations offset: 1 %}
+    {% assign partial-path = partial-path | append: loc | append: "/" %}
+
+    {% for nav in current-menu %}
+      {% if nav.url == partial-path %}
+      <span class="fragment"><a href="{{ nav.url }}">{{ nav.text }}</a></span>
+        {% if nav.sub-pages %}
+          {% assign current-menu = nav.sub-pages %}
+        {% endif %}
+      {% endif %} 
+    {% endfor %}
+  {% endfor %}
+</div>
+
+<!-- Breadcrumbs end -->
+
+<article class="page">
+  <div class="entry">
+    {{ content }}
+  </div>
+</article>

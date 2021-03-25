@@ -6,7 +6,11 @@ permalink: /project/
 <div id="project_container">
 {% for project in site.data.projects %}
     <div class="project">
+        {% if project.sub_page %}
+        <h3><a href={{ project.sub_page }}>{{ project.head }}</a></h3>
+        {% else %}
         <h3>{{ project.head }}</h3>
+        {% endif %}
         <div class="project_body">
             {% if project.media_type == "video" %}
                 <video class="project_media" src="{{ site.baseurl }}{{ project.media_url }}" controls></video>
