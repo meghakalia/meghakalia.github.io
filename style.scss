@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 15px/1.4 $helvetica;
+  font: 14px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -201,8 +201,8 @@ img {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
+  margin: -5px 0 18px 1px;
+  color: #93a1a1;
   font-size: 16px;
 
   @include mobile {
@@ -214,7 +214,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 16px;
 
   @include mobile {
     float: none;
@@ -224,11 +224,12 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 13px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    font-size: 16px;
 
     @include mobile {
       margin: 0 10px;
@@ -317,11 +318,13 @@ footer {
   flex-direction: row;
 
   > * {
-    margin: 15px;
+    margin: 4px;
   }
 
+  $update_size: 27%;
+
   #top_updates {
-    flex: 40%;
+    flex: $update_size;
     display: flex;
     flex-direction: column;
     color: $gray !important;
@@ -345,7 +348,7 @@ footer {
   }
 
   #intro_box {
-    flex: 60%;
+    flex: calc(100% - #{$update_size});
     display: flex;
     flex-direction: column;
 
