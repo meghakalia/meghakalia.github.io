@@ -28,7 +28,32 @@
 
           <nav>
             {% for btn in site.data.nav-menu %}
+              {% assign active = "false" %}
+
               {% if page.url == btn.url %}
+                {% assign active = "true" %}
+              {% endif %}
+
+              {% if active == "false" and btn.url != "/" %}
+                {% assign checkArray = page.url | split: btn.url %}
+
+                <!-- 
+                  If btn.url = "A", page.url = "AB", checkArray = ["", "B"]
+                  If btn.url = "A", page.url = "BA", checkArray = ["B", ""]
+
+                  Hence, empty first element in checkArray indicates that
+                  btn.url is a prefix of page.url
+
+                  This can happen for sub-pages where:
+                    page.url = /project/surgical-AR-system/
+                    btn.url = /project/
+                -->
+                {% if checkArray[0] == "" %}
+                  {% assign active = "true" %}
+                {% endif %}
+              {% endif %}
+
+              {% if active == "true" %}
               <a
                 class="active"
                 href="{{ site.baseurl }}{{ btn.url }}"
