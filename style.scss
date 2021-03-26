@@ -318,7 +318,7 @@ footer {
   flex-direction: row;
 
   > * {
-    margin: 4px;
+    margin: 6px;
   }
 
   $update_size: 27%;
@@ -328,6 +328,7 @@ footer {
     display: flex;
     flex-direction: column;
     color: $gray !important;
+    border: 1px solid #93a1a18c;
     // border: 1px solid black;
 
     .heading {
