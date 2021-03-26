@@ -1,16 +1,20 @@
 - head: Real-time Surgical Augmented Reality (AR) System
   media_type: video
   media_url: /videos/working_demo.mp4
+  sub_page: /project/surgical-AR-system/
 
 - head: Evaluation of full AR system
   media_type: image
   media_url: /images/evaluation.png
   desc: Evaluation experiment was conducted to estimate overall system error in our AR system.
+  sub_page: /project/evaluation/
 
 - head: Color Depth Encoding for a Reliable depth estimation
   media_type: video
   media_url: /videos/depth_perception.mp4
+  sub_page: /project/depth-perception/
 
 - head: Motion Parallax for better depth estimation
   media_type: video
   media_url: /videos/parallax.mp4
+  sub_page: /project/parallax/

@@ -379,6 +379,7 @@ footer {
     .project_body {
       display: flex;
       flex-direction: column;
+      align-items: center;
 
       .project_media {
         width: 60%;
@@ -387,9 +388,20 @@ footer {
       }
 
       .project_description {
-        width: 50%;
+        padding-top: 10px;
+        width: 60%;
       }
     }
+
+  }
+}
+
+.breadcrumbs {
+  margin: 20px 0px;
+  
+  .fragment:not(:last-child)::after {
+    content: '>';
+    padding: 0px 10px;
 
   }
 }
