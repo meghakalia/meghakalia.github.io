@@ -3,7 +3,7 @@ layout: page
 title: Project
 permalink: /project/
 ---
-<div id="project_container">
+<div id="project_container" class="book-style">
 {% for project in site.data.projects %}
     <div class="project">
         {% if project.sub_page %}
@@ -11,16 +11,16 @@ permalink: /project/
         {% else %}
         <h3>{{ project.head }}</h3>
         {% endif %}
-        <div class="project_body">
+        <figure class="media-container project-media">
             {% if project.media_type == "video" %}
-                <video class="project_media" src="{{ site.baseurl }}{{ project.media_url }}" controls></video>
+                <video src="{{ site.baseurl }}{{ project.media_url }}" controls></video>
             {% else if project.media_type == "image" %}
-                <img class="project_media" src="{{ site.baseurl }}{{ project.media_url }}"></img>
+                <img src="{{ site.baseurl }}{{ project.media_url }}"></img>
             {% endif %}
-            {% if project.desc %}
-                <div class="project_description">{{ project.desc }}</div>
-            {% endif %}
-        </div>
+        </figure>
+        {% if project.desc %}
+            {{ project.desc }}
+        {% endif %}
     </div>
 {% endfor %}
 </div>
