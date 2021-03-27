@@ -56,7 +56,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 h4 {
@@ -357,9 +357,32 @@ footer {
       width: 100%;
     }
 
+    #caption_bio {
+      font-size: 12px;
+    }
     .biography {
       text-align: justify;
     }
+  }
+}
+
+#AR_subpage{
+
+  #AR_image{
+    width: 40%;
+    margin: -3px 0 7px 10px;
+  }
+
+  #AR_video{
+    display: block;
+    margin: 8px auto;
+  }
+  
+  .AR_media {
+    width: 57%;
+    // border: 1px solid gray;
+    box-shadow: 0px 0px 3px 3px rgb(230, 230, 230);
+  
   }
 }
 
@@ -382,14 +405,17 @@ footer {
       align-items: center;
 
       .project_media {
-        width: 60%;
+        width: 57%;
         // border: 1px solid gray;
         box-shadow: 0px 0px 3px 3px rgb(230, 230, 230);
+
       }
 
       .project_description {
         padding-top: 10px;
-        width: 60%;
+        width: 88%;
+        font-size: 14px;
+        
       }
     }
 

@@ -7,7 +7,7 @@ I have been a recipient of the [Public Scholars Initiative][PSI] award, have bee
 
 Currently, I am part of the steering committee of [Biomedical Imaging and Artificial Intelligence Research Cluster][BIAIRC], UBC. In the past, I have served as a member of Graduate Council Student Caucus, UBC and as an executive committee member, Women in Engineering, UBC.
 
-When I am not working you can find me either running, biking, or reading a book. Fun fact: In my PhD I have managed to read more than 60 fiction/non-fiction books so far. 
+When I am not working you can find me either running, biking, or reading a book. Fun fact: During my PhD I have managed to read more than 60 fiction/non-fiction books so far. Things that I am learning currently: North Indian classical music and Indian language Maithli.
 
 
 [RCL]: http://rcl.ece.ubc.ca/people/

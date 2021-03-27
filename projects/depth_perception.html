@@ -5,4 +5,24 @@ permalink: /project/depth-perception/
 
 ---
 
-Depth Perception TBC
+<div id="depth_subpage">
+    <p id="depth_project">
+        In the paper we used a very intuitive idea of mapping distance between the surgical instrument to the color spectrum. 
+        The method can be seen in the video shown below. 
+    </p>
+    
+    <img id="depth_image" src="{{ site.baseurl }}/images/CDE.PNG" align= "right"/>
+    <video id="depth_video" class="depth_media" src="{{ site.baseurl }}{{ project.media_url }}" controls></video>
+    <figcaption>(Top) Normal endoscope camera image.  (Bottom) Our CDE visualization with tumor (the small blob that is changing color) and the virtual surgical instrument. The color of the tumor changes (from red to blue) as the distance of the surgical instrument from the tumor increases. For details please click on the title of the video.</figcaption>
+
+    <p>For evaluation we conducted a user study using a within subjects experiment design with 12 subjects. 
+        We evaluated CDE in both stereoscopic and monocular conditions. 
+        The four conditions are Stereo (S) + Color-Depth Encoding (CDE), Stereo + No CDE, No Stereo + CDE and No Stereo + No CDE. 
+        Results show significantly less error in depth judgements in Stereo + CDE case when compared to other cases. Subjects also took significantly less time in Stereo + CDE case. For details of the task please see the paper. 
+    </p>
+
+    <p id = "depth_ref"><b>References</b></p>
+    <p>Kalia, M., Navab, N., & Salcudean, T. (2019, May). A real-time interactive augmented reality depth estimation technique for surgical robotics. In 2019 International Conference on Robotics and Automation (ICRA) (pp. 8291-8297). IEEE.
+    </p>
+
+</div>

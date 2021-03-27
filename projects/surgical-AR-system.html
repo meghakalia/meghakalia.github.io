@@ -4,5 +4,48 @@ title: Surgical AR System
 permalink: /project/surgical-AR-system/
 
 ---
+<div id="AR_subpage">
 
-AR TBC
+    <!-- <p id="sub_project">
+    <figure id="AR_image" align = "right">
+        <img id="AR_image" src="{{ site.baseurl }}/images/endoscope.png"/>
+        <figcaption>Image showing the endoscope image with no visible boundaries between cancer and anatomical structures.</figcaption>
+    </figure> -->
+
+    <figure>
+        <img id="AR_image" src="{{ site.baseurl }}/images/endoscope.png" />
+        <figcaption>Image showing the endoscope image with no visible boundaries between cancer and anatomical structures.</figcaption>
+    </figure>
+
+    
+    
+    
+    <p id="sub_project">
+    <b>Motivation :</b> The project aims to make Augmented Reality (AR) feasible for robot assisted radical prostatectomy (RARP) procedure. 
+    Primary goal of RARP is to remove cancerous prostate, while a secondary goal is to preserve important anatomical structures attached to the prostate. 
+    The preservation of these structures is important for the post-surgical quality of life of the patient. 
+    Prostate is encapsulated by Nerve Vascular Bundle (NVB) responsible for sexual function and urethral sphincter responsible for continence function. 
+    To remove the prostate while preserving these structures is not trivial as the demarcation between cancerous regions and these structures is not visible in the endoscope image. 
+    As can be seen in the image, the difference between cancerous regions and these anatomical structures is not visible with naked eyes in the endoscope image. 
+    This can lead to occurrence of positive surgical margins after surgery, indicating incomplete removal of cancer. 
+    </p>
+
+    <p><b>Solution : </b> Therefore, in my PhD I built an AR system for RARP, to overlay a patient's MRI (showing cancer and anatomical structures) on the endoscope camera image. The demo can be seen in the video below. The video shows the endoscope view of the da Vinci surgical system. The video shows a prostate phantom (blue) with and without AR overlay. 
+    For my PhD I estimated the calibrations (Hand-eye and camera) to correctly overlay the MRI information on the camera image and built and evaluated various AR visualization strategies. 
+    </p>
+
+    <video id="AR_video" class="AR_media" src="{{ site.baseurl }}/videos/working_demo.mp4" controls></video>
+
+    <figcaption id = "AR_videocap"> (Bottom) Image shows prostate phantom with AR overlay. A patient’s MRI is deformably registered to the phantom. 3D mesh (pink) generated from MRI and the MRI plane is visible in the image. Transverse-plane of the MRI can is controlled using the surgical instrument. Notice how the MRI plane changes with the surgical instrument. At many locations tumor locations in red can be seen on the MRI plane. For details please click on the title of the video. </figcaption> 
+    <p>
+    We have ethics approval for the clinical study. Our many techniques have been translated and used in real surgeries at VGH. Our current team consists of Prof Tim Salcudean, leading the project, Dr Peter Black, a urologist at VGH, Dr Silvia Chang, a radiologist, two graduate students (including myself) and many undergraduate interns who join the team for short-term. We have Prof. Nassir Navab, an expert on medical AR and Prof. Sidney Fels, an expert in perception and Human computer interaction (HCI) to provide supervision for designing user-friendly AR visualizations for surgery. 
+    </p>
+
+    <p id = "AR_ref"><b>References</b></p>
+    <p>Kalia, M., Avinash, A., Navab, N., & Salcudean, S. E. (2021).  
+        Preclinical Evaluation of a Marker-less,Real-time, Augmented Reality Guidance System for Robot Assisted Radical Prostatectomy.
+        <i>InternationalJournal of Computer Assisted Radiology and Surgery.</i> (In Press)</p>
+    <p>Samei, G., Tsang, K., Kesch, C., Lobo, J., Hor, S., Mohareri, O., ... & Salcudean, S. (2020). A partial augmented reality system with live ultrasound and registered preoperative MRI for guiding robot-assisted radical prostatectomy. 
+    <i> Medical image analysis</i>, 60, 101588.</p>
+
+</div>

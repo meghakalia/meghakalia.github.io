@@ -4,5 +4,42 @@ title: Evaluation
 permalink: /project/evaluation/
 
 ---
+<div id="eval_subpage">
+    <p id="eval_project">
+        Our system consists of one magnetic resonance imaging (MRI) to the ultrasound (US) registration and multiple rigid body transformation steps. The system transforms MRI to the 2D camera image frame. 
+        A patient’s MRI is taken many weeks before surgery. A radiologist manually annotates the cancer and prostate in the MRI. Then, during surgery the MRI is deformably registered to the real time US of the prostate by using an algorithm developed by our group. Then the following transformation steps are applied to the US volume to transform to the endoscope camera image. All the methods take less than 30s, can be performed during surgery and inside of the patient’s body. 
 
-Evaluation TBC
+        <img id="eval_image" src="{{ site.baseurl }}/images/coordinate systems.PNG" align= "right"/>
+        <figcaption>Image showing the chain of rigid body transformations used in our guidance system.</figcaption>
+    </p>
+
+    <p>For TRUS to robot transformation, to collect a point, the surgeon palpates at the prostate surface. This point can be seen moving in the TRUS image. 
+        The point is selected in the TRUS image manually and the same point in the robotic frame is recorded using the robot's API [1].
+    </p>
+
+    <p>
+        To find the projective transformation from the robot to the camera image, I located corresponding points in the image and the robot’s coordinate system. A few pre-selected key-points are located in the camera image using the method proposed in [2] using a CAD model. The same points are known in the robot’s coordinate frame from the robot’s API. 
+        Then, we estimated the projective transformation between the two coordinate frames by finding the minimum solution of the objective function presented in our paper [3]. 
+    </p>
+
+    <p>
+        To evaluate, we conducted a water bath experiment. 
+        A custom nylon mesh was placed in a water bath. The US volume of the mesh showed the cross wire points in the US. Then, water was taken out and the endoscope image of the mesh was captured. We manually selected the 25 cross wire points visible in the camera and the US volume. We applied all the estimated transformations by following the same methods as in surgery to the US data points. Error between the projected US points and the ground truth points in the camera image frame was calculated. These points are visible in the camera image in red. 
+        The error came out to be approximately 11 pixels for a monocular and stereoscopic endoscope camera.
+    </p>
+
+    <img id="eval_image2" src="{{ site.baseurl }}/images/evaluation.png"/>
+    <figcaption>(A) Custom grid visible in the endoscope camera image (B) the cross wire points visible in sagittal US image. (C) full water-bath setup. Position of the US probe (named TRUS here for transrectal ultrasound) and the endoscope can be seen in the image.</figcaption>
+
+    <p id = "eval_ref"><b>References</b></p>
+    <p>[1] Mohareri, O., Ischia, J., Black, P. C., Schneider, C., Lobo, J., Goldenberg, L., & Salcudean, S. E. (2015). Intraoperative registered transrectal ultrasound guidance for robot-assisted laparoscopic radical prostatectomy. The Journal of urology, 193(1), 302-312.
+    </p>
+
+    <p>[2] Ye, M., Zhang, L., Giannarou, S., & Yang, G. Z. (2016, October). Real-time 3d tracking of articulated tools for robotic surgery. In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 386-394). Springer, Cham.
+    </p>
+
+    <p>[3] Kalia, M., Avinash, A., Navab, N., & Salcudean, S. E. (2021).  
+        Preclinical Evaluation of a Marker-less,Real-time, Augmented Reality Guidance System for Robot Assisted Radical Prostatectomy.
+        <i>InternationalJournal of Computer Assisted Radiology and Surgery.</i> (In Press)</p>
+
+</div>

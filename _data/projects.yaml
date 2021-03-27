@@ -1,20 +1,22 @@
-- head: Real-time Surgical Augmented Reality (AR) System
+- head: 1- Real-time Surgical Augmented Reality (AR) System
   media_type: video
   media_url: /videos/working_demo.mp4
+  desc: Endoscope view of the surgeon though the da Vinci surgical endoscope. (Top) Image shows a prostate phantom (in blue) without AR visualization. (Bottom) Image shows prostate phantom with AR overlay. A patient’s MRI is deformably registered to the phantom. 3D mesh (pink) generated from MRI and the MRI plane is visible in the image.  Transverse-plane of the MRI can is controlled using the surgical instrument. Notice how the MRI plane changes with the surgical instrument. At many locations tumor locations in red can be seen on the MRI plane. For details please click on the title of the video. 
   sub_page: /project/surgical-AR-system/
 
-- head: Evaluation of full AR system
+- head: 2- Evaluation of Complete AR System
   media_type: image
   media_url: /images/evaluation.png
-  desc: Evaluation experiment was conducted to estimate overall system error in our AR system.
+  desc: Our AR guidance system transforms a patient's MRI data to the image frame. Since MRI is not real-time we register it first to real-time ultrasound (US). Then, US to endoscope camera image transformation is estimated using a chain of rigid body transformations. We estimated the registration error from the US to the camera image frame using a water-bath experiment. (A) Custom grid visible in the endoscope camera image (B) the cross wire points visible in sagittal US image. (C) full water-bath setup. Position of the US probe (named TRUS here for transrectal ultrasound) and the endoscope can be seen in the image. For details please click on the title of the video.
   sub_page: /project/evaluation/
 
-- head: Color Depth Encoding for a Reliable depth estimation
+- head: 3- Color Depth Encoding for a Reliable depth estimation
   media_type: video
   media_url: /videos/depth_perception.mp4
+  desc:  Video showing our color depth encoding technique (CDE). (Top) Normal endoscope camera image.  (Bottom) Our CDE visualization with tumor (the small blob that is changing color) and the virtual surgical instrument. The color of the tumor changes (from red to blue) as the distance of the surgical instrument from the tumor increases. For details please click on the title of the video. 
   sub_page: /project/depth-perception/
 
-- head: Motion Parallax for better depth estimation
+- head: 4- Motion Parallax for better depth estimation
   media_type: video
   media_url: /videos/parallax.mp4
-  sub_page: /project/parallax/
+  desc: Video showing our preliminary experiment testing motion parallax (MP) depth cue for surgical applications. MP is strong and active depth cue in near-field. Its study in surgical applications is of importance, especially for stereo impaired clinician population. (Top) Monocular view without MP. (Bottom) The same scene with MP. The green dot is an arbitrary point on the surface of the scene and gray is a simulated tumor. Unlike the monocular view on the top, the 3D structure is clear with MP. We studied the combination MP with stereo depth cue in a within subjects expriment study. Results are promising and are currently being explored further.
