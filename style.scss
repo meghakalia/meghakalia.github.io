@@ -411,7 +411,7 @@ figure.media-container {
 
 #depth_2 { 
   margin-top: 20px;
-  width: 67%;
+  width: 67%;  
 }
 
 #project_container {
@@ -446,6 +446,13 @@ figure.media-container {
     padding: 0px 10px;
 
   }
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

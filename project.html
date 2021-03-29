@@ -11,13 +11,24 @@ permalink: /project/
         {% else %}
         <h3>{{ project.head }}</h3>
         {% endif %}
-        <figure class="media-container project-media">
+
+        <figure class="media-container project-media">  
             {% if project.media_type == "video" %}
-                <video src="{{ site.baseurl }}{{ project.media_url }}" controls></video>
+                {% if project.media_url != "/videos/depth_perceptionCropped.mp4" %}
+                    <video src="{{ site.baseurl }}{{ project.media_url }}" controls></video>
+                {% endif %}
+            
             {% else if project.media_type == "image" %}
                 <img src="{{ site.baseurl }}{{ project.media_url }}"></img>
             {% endif %}
         </figure>
+
+        {% if project.media_url == "/videos/depth_perceptionCropped.mp4" %}
+            <figure class="media-container">
+                <video src="{{ site.baseurl }}{{ project.media_url }}" controls style="height: 240px;"></video>
+            </figure>
+        {% endif %}
+
         {% if project.desc %}
             {{ project.desc }}
         {% endif %}

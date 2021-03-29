@@ -12,7 +12,7 @@
 
 - head: 3- Color Depth Encoding for a Reliable depth estimation
   media_type: video
-  media_url: /videos/depth_perception.mp4
+  media_url: /videos/depth_perceptionCropped.mp4
   desc:  Video showing our color depth encoding technique (CDE). (Top) Normal endoscope camera image.  (Bottom) Our CDE visualization with tumor (the small blob that is changing color) and the virtual surgical instrument. The color of the tumor changes (from red to blue) as the distance of the surgical instrument from the tumor increases. For details please click on the title of the video. 
   sub_page: /project/depth-perception/
 
