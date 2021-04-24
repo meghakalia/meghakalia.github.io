@@ -3,7 +3,7 @@ I am a PhD candidate at [Robotics and Control Lab][RCL], University of British C
 
 My research lies at the intersection of human perception inspired AR/MR, human computer interaction, computer vision and perception in robotics.
 
-I have been a recipient of the [Public Scholars Initiative][PSI] award, have been in [UBC press][UBC PRESS] and have received an Outstanding Paper Award for my research. 
+I have been a recipient of the [Friedman Award][Friedman], [Public Scholars Initiative][PSI] award, have been in [UBC press][UBC PRESS] and have received an Outstanding Paper Award for my research. 
 
 Currently, I am part of the steering committee of [Biomedical Imaging and Artificial Intelligence Research Cluster][BIAIRC], UBC. In the past, I have served as a member of Graduate Council Student Caucus, UBC and as an executive committee member, Women in Engineering, UBC.
 
@@ -15,5 +15,6 @@ When I am not working you can find me either running, biking, or reading a book.
 [NAVAB]: http://campar.in.tum.de/Main/NassirNavabCv
 [CAMPAR]: http://campar.in.tum.de/WebHome
 [PSI]: https://www.grad.ubc.ca/campus-community/meet-our-students/kalia-megha
+[Friedman]: https://www.grad.ubc.ca/awards/friedman-award-scholars-health
 [UBC PRESS]: https://www.ece.ubc.ca/news/202010/meet-ece-phd-student-megha-kalia
 [BIAIRC]: https://bmiai.ubc.ca/
