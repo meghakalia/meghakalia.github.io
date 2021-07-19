@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 
 #### 2021
-**Kalia, M.**, Avinash, A., Navab, N., & Salcudean, S. E. (2021). Preclinical Evaluation of a Marker-less,Real-time, Augmented Reality Guidance System for Robot Assisted Radical Prostatectomy. <i>InternationalJournal of Computer Assisted Radiology and Surgery.</i> (In Press)
+**Kalia, M.**, Avinash, A., Navab, N., & Salcudean, S. E. (2021). Preclinical Evaluation of a Marker-less,Real-time, Augmented Reality Guidance System for Robot Assisted Radical Prostatectomy. <i>InternationalJournal of Computer Assisted Radiology and Surgery.</i> (In Press) (Bench-to-Bedside Award)
 
 **Kalia, M.**, Aleef, T.A., Navab, N., Salcudean, S. E. (2021). [Co-Generation and Segmentation for Generalized Surgical Instrument Segmentation on Unlabelled Data.](https://arxiv.org/abs/2103.09276)
 
@@ -17,7 +17,7 @@ Abdelaal, A. E., Avinash, A., **Kalia, M.**, Hager, G. D., & Salcudean, S. E. (2
 
 #### 2019
 
-**Kalia, M.**, Mathur, P., Navab, N., & Salcudean, S. E. (2019). [Marker‐less real‐time intra‐operative camera and hand‐eye calibration procedure for surgical augmented reality.](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/htl.2019.0094)  <i>Healthcare technology letters</i>, 6(6), 255-260.
+**Kalia, M.**, Mathur, P., Navab, N., & Salcudean, S. E. (2019). [Marker‐less real‐time intra‐operative camera and hand‐eye calibration procedure for surgical augmented reality.](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/htl.2019.0094)  <i>Healthcare technology letters</i>, 6(6), 255-260. (Outstanding Paper Award)
 
 **Kalia, M.**, Navab, N., & Salcudean, T. (2019, May). [A real-time interactive augmented reality depth estimation technique for surgical robotics.](https://ieeexplore.ieee.org/document/8793610) In 2019 <i>International Conference on Robotics and Automation (ICRA)</i> (pp. 8291-8297). IEEE.
 
