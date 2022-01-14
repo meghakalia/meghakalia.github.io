@@ -5,9 +5,10 @@ permalink: /publications/
 ---
 
 #### 2021
-**Kalia, M.**, Avinash, A., Navab, N., & Salcudean, S. E. (2021). Preclinical Evaluation of a Marker-less,Real-time, Augmented Reality Guidance System for Robot Assisted Radical Prostatectomy. <i>InternationalJournal of Computer Assisted Radiology and Surgery.</i> (In Press) (Bench-to-Bedside Award)
 
-**Kalia, M.**, Aleef, T.A., Navab, N., Salcudean, S. E. (2021). [Co-Generation and Segmentation for Generalized Surgical Instrument Segmentation on Unlabelled Data.](https://arxiv.org/abs/2103.09276)
+**Kalia, M.**, Aleef, T. A., Navab, N., Black, P., & Salcudean, S. E. (2021, September). [Co-Generation and Segmentation for Generalized Surgical Instrument Segmentation on Unlabelled Data.](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_39) <i>International Conference on Medical Image Computing and Computer-Assisted Intervention</i> (pp. 403-412). Springer, Cham.
+
+**Kalia, M.**, Avinash, A., Navab, N., & Salcudean, S. (2021). [Preclinical evaluation of a markerless, real-time, augmented reality guidance system for robot-assisted radical prostatectomy](https://link.springer.com/article/10.1007/s11548-021-02419-9). </i>International Journal of Computer Assisted Radiology and Surgery</i>, 1-8. (Bench-to-Bedside Award)
 
 #### 2020
 
