@@ -6,7 +6,7 @@ permalink: /publications/
 
 #### 2021
 
-**Kalia, M.**, Aleef, T. A., Navab, N., Black, P., & Salcudean, S. E. (2021, September). [Co-Generation and Segmentation for Generalized Surgical Instrument Segmentation on Unlabelled Data.](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_39) <i>International Conference on Medical Image Computing and Computer-Assisted Intervention</i> (pp. 403-412). Springer, Cham.
+<span style="color:red"><i>(Oral, Direct Accept, Top 13%)</i></span> **Kalia, M.**, Aleef, T. A., Navab, N., Black, P., & Salcudean, S. E. (2021, September). [Co-Generation and Segmentation for Generalized Surgical Instrument Segmentation on Unlabelled Data.](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_39) <i>International Conference on Medical Image Computing and Computer-Assisted Intervention</i> (pp. 403-412). Springer, Cham.
 
 **Kalia, M.**, Avinash, A., Navab, N., & Salcudean, S. (2021). [Preclinical evaluation of a markerless, real-time, augmented reality guidance system for robot-assisted radical prostatectomy](https://link.springer.com/article/10.1007/s11548-021-02419-9). <i>International Journal of Computer Assisted Radiology and Surgery</i>, 1-8. <span style="color:red">(Bench-to-Bedside Award)</span>
 
