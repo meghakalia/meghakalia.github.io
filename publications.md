@@ -8,7 +8,7 @@ permalink: /publications/
 
 **Kalia, M.**, Aleef, T. A., Navab, N., Black, P., & Salcudean, S. E. (2021, September). [Co-Generation and Segmentation for Generalized Surgical Instrument Segmentation on Unlabelled Data.](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_39) <i>International Conference on Medical Image Computing and Computer-Assisted Intervention</i> (pp. 403-412). Springer, Cham.
 
-**Kalia, M.**, Avinash, A., Navab, N., & Salcudean, S. (2021). [Preclinical evaluation of a markerless, real-time, augmented reality guidance system for robot-assisted radical prostatectomy](https://link.springer.com/article/10.1007/s11548-021-02419-9). <i>International Journal of Computer Assisted Radiology and Surgery</i>, 1-8. <span style="color:blue">(Bench-to-Bedside Award)</span>
+**Kalia, M.**, Avinash, A., Navab, N., & Salcudean, S. (2021). [Preclinical evaluation of a markerless, real-time, augmented reality guidance system for robot-assisted radical prostatectomy](https://link.springer.com/article/10.1007/s11548-021-02419-9). <i>International Journal of Computer Assisted Radiology and Surgery</i>, 1-8. <span style="color:red">(Bench-to-Bedside Award)</span>
 
 #### 2020
 
@@ -18,7 +18,7 @@ Abdelaal, A. E., Avinash, A., **Kalia, M.**, Hager, G. D., & Salcudean, S. E. (2
 
 #### 2019
 
-**Kalia, M.**, Mathur, P., Navab, N., & Salcudean, S. E. (2019). [Marker‐less real‐time intra‐operative camera and hand‐eye calibration procedure for surgical augmented reality.](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/htl.2019.0094)  <i>Healthcare technology letters</i>, 6(6), 255-260. (Outstanding Paper Award)
+**Kalia, M.**, Mathur, P., Navab, N., & Salcudean, S. E. (2019). [Marker‐less real‐time intra‐operative camera and hand‐eye calibration procedure for surgical augmented reality.](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/htl.2019.0094)  <i>Healthcare technology letters</i>, 6(6), 255-260. <span style="color:red">(Outstanding Paper Award)</span>
 
 **Kalia, M.**, Navab, N., & Salcudean, T. (2019, May). [A real-time interactive augmented reality depth estimation technique for surgical robotics.](https://ieeexplore.ieee.org/document/8793610) In 2019 <i>International Conference on Robotics and Automation (ICRA)</i> (pp. 8291-8297). IEEE.
 
