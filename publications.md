@@ -3,6 +3,10 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
+#### 2021
+Tohidypour H., Wang Y., Gholami M. , **Kalia M.**, Wen K.
+Li L., Nasiopoulos P., Pourazad M. (March 2022) 
+A Deep Learning Based Approach for Camera Switching in Amateur Ice Hockey Game Broadcasting. <i>International Conference on Signal Processing and Information Communications. Paris. </i> <i>(Accepted)</i>
 
 #### 2021
 
