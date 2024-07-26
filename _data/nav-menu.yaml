@@ -17,8 +17,8 @@
   text: "Map"
 - url: "/updates/"
   text: "Updates"
-- url: "/Megha_Kalia_CV.pdf"
-  text: "CV"
+# - url: "/Megha_Kalia_CV.pdf"
+#   text: "CV"
 - url: "/contact/"
   text: "Contact"
   

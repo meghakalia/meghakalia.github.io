@@ -3,12 +3,13 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
-Robotics and Control Lab,  
-Electrical and Computer Engineering,   
-The University of British Columbia  
-5500 - 2332 Main Mall, Vancouver BC V6T 1Z4  
+Surgical Navigation & Robotics Lab, 
+Brigham & Women's Hospital, 
+Harvard Medical School, 
+75 Francis St., 
+Boston, 02115, MA, USA
 
-<u>Email</u>: [mkalia@ece.ubc.ca](mailto:mkalia@ece.ubc.ca) | 
+<u>Email</u>: [mkalia2@bwh.harvard.edu](mailto:mkalia2@bwh.harvard.edu) | 
 
 <u>Profiles</u>:  
 [LinkedIn](https://www.linkedin.com/in/megha-kalia/) |
@@ -16,4 +17,3 @@ The University of British Columbia
 [Research Gate](https://www.researchgate.net/profile/Megha-Kalia) |  
 [BIAI Cluster](https://bmiai.ubc.ca/people/megha-kalia) | 
 [Public Scholar](https://www.grad.ubc.ca/campus-community/meet-our-students/kalia-megha) | 
-[Robotics and Control Lab](http://rcl.ece.ubc.ca/people/) 

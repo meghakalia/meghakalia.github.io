@@ -1,29 +1,45 @@
-- head:  1- Unlabelled Generation and Segmentation of Surgical Instruments <a href="https://github.com/meghakalia/coSegGAN#">[Code]</a> 
+- head:  1- Semi-Supervised Depth & Pose Estimation <a href="https://github.com/meghakalia/coSegGAN#">[Code]</a> 
   media_type: image
   media_url: /images/coSEGGAN.png
   desc: Figure showing the results of our proposed algorithm. (Top row) Original images. (Bottom row) Our segmenation result. Our method adopts a generation and segmentation strategy to learn a segmentation model with better generalization capability to domains that have no labelled data. The method leverages the availability of labelled data in a different domain. The generator does the domain translation from the labelled domain to the unlabeled domain and simultaneously, the segmentation model learns using the generated data while regularizing the generative model.
  
 
+- head:  2- Llamma API for information retrival from documents <a href="https://github.com/meghakalia/coSegGAN#">[Code]</a> 
+  media_type: image
+  media_url: /images/coSEGGAN.png
+  desc: Figure showing the results of our proposed algorithm. (Top row) Original images. (Bottom row) Our segmenation result. Our method adopts a generation and segmentation strategy to learn a segmentation model with better generalization capability to domains that have no labelled data. The method leverages the availability of labelled data in a different domain. The generator does the domain translation from the labelled domain to the unlabeled domain and simultaneously, the segmentation model learns using the generated data while regularizing the generative model.
+ 
 
-- head: 2- Real-time Surgical Augmented Reality (AR) System
+- head:  3- Unlabelled Generation and Segmentation of Surgical Instruments <a href="https://github.com/meghakalia/coSegGAN#">[Code]</a> 
+  media_type: image
+  media_url: /images/coSEGGAN.png
+  desc: Figure showing the results of our proposed algorithm. (Top row) Original images. (Bottom row) Our segmenation result. Our method adopts a generation and segmentation strategy to learn a segmentation model with better generalization capability to domains that have no labelled data. The method leverages the availability of labelled data in a different domain. The generator does the domain translation from the labelled domain to the unlabeled domain and simultaneously, the segmentation model learns using the generated data while regularizing the generative model.
+ 
+
+- head: 4- Real-time Surgical Augmented Reality (AR) System
   media_type: video
   media_url: /videos/working_demo.mp4
   desc: Endoscope view of the surgeon though the da Vinci surgical endoscope. (Top) Image shows a prostate phantom (in blue) without AR visualization. (Bottom) Image shows prostate phantom with AR overlay. A patient’s MRI is deformably registered to the phantom. 3D mesh (pink) generated from MRI and the MRI plane is visible in the image.  Transverse-plane of the MRI can is controlled using the surgical instrument. Notice how the MRI plane changes with the surgical instrument. At many locations tumor locations in red can be seen on the MRI plane. For details please click on the title of the video. 
   sub_page: /project/surgical-AR-system/
 
-- head: 3- Evaluation of Complete AR System
+
+- head: 5- Evaluation of Complete AR System
   media_type: image
   media_url: /images/evaluation.png
   desc: Our AR guidance system transforms a patient's MRI data to the image frame. Since MRI is not real-time we register it first to real-time ultrasound (US). Then, US to endoscope camera image transformation is estimated using a chain of rigid body transformations. We estimated the registration error from the US to the camera image frame using a water-bath experiment. (A) Custom grid visible in the endoscope camera image (B) the cross wire points visible in sagittal US image. (C) full water-bath setup. Position of the US probe (named TRUS here for transrectal ultrasound) and the endoscope can be seen in the image. For details please click on the title of the video.
   sub_page: /project/evaluation/
 
-- head: 4- Color Depth Encoding for a Reliable depth estimation
+
+- head: 6- Color Depth Encoding for a Reliable depth estimation
   media_type: video
   media_url: /videos/depth_perceptionCropped.mp4
   desc:  Video showing our color depth encoding technique (CDE). (Top) Normal endoscope camera image.  (Bottom) Our CDE visualization with tumor (the small blob that is changing color) and the virtual surgical instrument. The color of the tumor changes (from red to blue) as the distance of the surgical instrument from the tumor increases. For details please click on the title of the video. 
   sub_page: /project/depth-perception/
 
-- head: 5- Motion Parallax for better depth estimation
+
+- head: 7- Motion Parallax for better depth estimation
   media_type: video
   media_url: /videos/parallax.mp4
   desc: Video showing our preliminary experiment testing motion parallax (MP) depth cue for surgical applications. MP is strong and active depth cue in near-field. Its study in surgical applications is of importance, especially for stereo impaired clinician population. (Top) Monocular view without MP. (Bottom) The same scene with MP. The green dot is an arbitrary point on the surface of the scene and gray is a simulated tumor. Unlike the monocular view on the top, the 3D structure is clear with MP. We studied the combination MP with stereo depth cue in a within subjects expriment study. Results are promising and are currently being explored further.
+
+
