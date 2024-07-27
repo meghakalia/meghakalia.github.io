@@ -18,15 +18,10 @@
   <body>
     <div class="wrapper-masthead">
       <div class="container">
-        <header class="masthead clearfix">
+        <header class="masthead clearfix flex-center-column">
           <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
+          
+          <nav class="flex-center">
             {% for btn in site.data.nav-menu %}
               {% assign active = "false" %}
 
@@ -69,6 +64,14 @@
               {% endif %}
             {% endfor %}
           </nav>
+
+          <div class="site-info flex-center-column">
+            <h1 class="site-name flex-center"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description flex-center">{{ site.description }}</p>
+            <p class="site-description flex-center">{{ site.description2 }}</p>
+          </div>
+
+          
         </header>
       </div>
     </div>

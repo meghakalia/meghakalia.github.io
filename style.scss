@@ -149,6 +149,17 @@ img {
 //
 // .masthead
 //
+.flex-center-column {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+}
 
 .wrapper-masthead {
   margin-bottom: 20px;
@@ -192,16 +203,16 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #555;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 32px;
   letter-spacing: 1px;
 }
 
 .site-description {
-  margin: -5px 0 18px 1px;
+  margin: -5px 0 3px 1px;
   color: #93a1a1;
   font-size: 16px;
 
@@ -212,9 +223,10 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 10px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 16px;
+  font-size: 17px;
+  margin: 15px 0px 15px; 
 
   @include mobile {
     float: none;
@@ -225,11 +237,11 @@ nav {
 
   a {
     margin-left: 13px;
-    color: $darkGray;
+    color: #808080;
     text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    font-size: 20px;
 
     @include mobile {
       margin: 0 10px;
@@ -237,7 +249,8 @@ nav {
     }
 
     &.active {
-      font-weight: bolder;
+      text-decoration: underline;
+      font-weight: 700;
     }
   }
 }
@@ -302,7 +315,8 @@ footer {
 
     .head {
       font-weight: bolder;
-      font-size: larger;
+      font-size: 12px;
+      margin-top: -5px;
 
       a {
         color: $blue;
