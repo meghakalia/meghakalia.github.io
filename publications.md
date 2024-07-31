@@ -5,13 +5,16 @@ permalink: /publications/
 ---
 #### 2023
 
-**Kalia, Megha**. Augmented reality guidance for robot-assisted laparoscopic surgery. Diss. University of British Columbia, 2023. (PhD Thesis)
+**Kalia, Megha**. [Augmented reality guidance for robot-assisted laparoscopic surgery](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0432737). University of British Columbia, 2023. (PhD Thesis)
 
 
-Chen, W., **Kalia, M.**, Zeng, Q., Pang, E. H., Bagherinasab, R., Milner, T. D., ... & Salcudean, S. E. (2023). Towards transcervical ultrasound image guidance for transoral robotic surgery. <i>International Journal of Computer Assisted Radiology and Surgery </i>, 18(6), 1061-1068. 
+Chen, W., **Kalia, M.**, Zeng, Q., Pang, E. H., Bagherinasab, R., Milner, T. D. & Salcudean, S. E. (2023). [Towards transcervical ultrasound image guidance for transoral robotic surgery](https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0432737). <i>International Journal of Computer Assisted Radiology and Surgery </i>, 18(6), 1061-1068. 
 
 
 #### 2022
+Chen, W., **Kalia, M.**, Zeng, Q., Pang, E. H., Bagherinasab, R., Milner, T. D. & Salcudean, S. E. (2022) Transcervical Ultrasound Image Guidance System for Transoral Robotic Surgery, Clinical Orthopaedics and Related Research (CoRR)
+
+
 Tohidypour H., Wang Y., Gholami M. , **Kalia M.**, Wen K.
 Li L., Nasiopoulos P., Pourazad M. (March 2022) 
 A Deep Learning Based Approach for Camera Switching in Amateur Ice Hockey Game Broadcasting. <i>International Conference on Signal Processing and Information Communications. Paris.
