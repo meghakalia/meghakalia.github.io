@@ -2,7 +2,6 @@
 - head:  1- Diffusion finetuning with LoRA on Custom Images  <a href="https://huggingface.co/spaces/mkalia/DepthPoseEstimation">[Hugging Face]</a> 
   media_type: image
   media_url: /images/carousel.gif
-  media_url: /images/carousel_dog.gif
   desc: This project fine-tunes the Stable Diffusion XL (SDXL) model using DreamBooth combined with Low-Rank Adaptation (LoRA). Outputs include LoRA adapter weights ready for personalized image generation.LoRA enables fast and memory-efficient fine-tuning by updating only a small number of parameters. It reduces GPU and storage requirements while preserving the original SDXL model. The resulting adapters are lightweight, making training and deployment faster and more flexible.
 
 - head:  2- Self-supervised Depth Estimation and Motion Estimation in Colonoscopy  <a href="https://huggingface.co/spaces/mkalia/DepthPoseEstimation">[Hugging Face]</a> 
