@@ -1,32 +1,38 @@
-- head:  1- Self-supervised Depth Estimation and Motion Estimation in Colonoscopy  <a href="https://huggingface.co/spaces/mkalia/DepthPoseEstimation">[Hugging Face]</a> 
+
+- head:  1- Diffusion finetuning with LoRA on Custom Images  <a href="https://huggingface.co/spaces/mkalia/DepthPoseEstimation">[Hugging Face]</a> 
+  media_type: image
+  media_url: /images/carousel_dog.gif
+  desc: This project fine-tunes the Stable Diffusion XL (SDXL) model using DreamBooth combined with Low-Rank Adaptation (LoRA). Outputs include LoRA adapter weights ready for personalized image generation.LoRA enables fast and memory-efficient fine-tuning by updating only a small number of parameters. It reduces GPU and storage requirements while preserving the original SDXL model. The resulting adapters are lightweight, making training and deployment faster and more flexible.
+
+- head:  2- Self-supervised Depth Estimation and Motion Estimation in Colonoscopy  <a href="https://huggingface.co/spaces/mkalia/DepthPoseEstimation">[Hugging Face]</a> 
   media_type: video
   media_url: /videos/colonoscopy.mp4
   desc: The project estimates depth and pose estimation from 2D image frames in colonoscopy in a semi and self-supervised manner. The projet uses a scale invariant depth log loss. Try out on your own images on hugging face at the link provided.
 
-- head:  2- Visual & Tactile Synchrony Perception in Metaverse <a href="https://github.com/meghakalia/Unity3D_HTC_VIVE">[Code]</a> 
+- head:  3- Visual & Tactile Synchrony Perception in Metaverse <a href="https://github.com/meghakalia/Unity3D_HTC_VIVE">[Code]</a> 
   media_type: image
   media_url: /images/HTC_vive.gif
   desc: The project aims to estimate the threshold value of exceptable latency between haptic and visual signal before it becomes noticeable for humans in metaverse. The project uses HTC vive for VR display and 3D Sense Touch Haptic device for haptic feedback. 
 
-- head:  3- Unlabelled Generation and Segmentation of Surgical Instruments <a href="https://github.com/meghakalia/coSegGAN#">[Code]</a> 
+- head:  4- Unlabelled Generation and Segmentation of Surgical Instruments <a href="https://github.com/meghakalia/coSegGAN#">[Code]</a> 
   media_type: image
   media_url: /images/coSEGGAN.png
   desc: Figure showing the results of our proposed algorithm. (Top row) Original images. (Bottom row) Our segmenation result. Our method adopts a generation and segmentation strategy to learn a segmentation model with better generalization capability to domains that have no labelled data. The method leverages the availability of labelled data in a different domain. The generator does the domain translation from the labelled domain to the unlabeled domain and simultaneously, the segmentation model learns using the generated data while regularizing the generative model.
  
-- head: 4- Real-time Surgical Augmented Reality (AR) System
+- head:  5- Real-time Surgical Augmented Reality (AR) System
   media_type: video
   media_url: /videos/working_demo.mp4
   desc: Endoscope view of the surgeon though the da Vinci surgical endoscope. (Top) Image shows a prostate phantom (in blue) without AR visualization. (Bottom) Image shows prostate phantom with AR overlay. A patient’s MRI is deformably registered to the phantom. 3D mesh (pink) generated from MRI and the MRI plane is visible in the image.  Transverse-plane of the MRI can is controlled using the surgical instrument. Notice how the MRI plane changes with the surgical instrument. At many locations tumor locations in red can be seen on the MRI plane. For details please click on the title of the video. 
   sub_page: /project/surgical-AR-system/
 
-- head: 5- Evaluation of Complete AR System
+- head: 6- Evaluation of Complete AR System
   media_type: image
   media_url: /images/evaluation.png
   desc: Our AR guidance system transforms a patient's MRI data to the image frame. Since MRI is not real-time we register it first to real-time ultrasound (US). Then, US to endoscope camera image transformation is estimated using a chain of rigid body transformations. We estimated the registration error from the US to the camera image frame using a water-bath experiment. (A) Custom grid visible in the endoscope camera image (B) the cross wire points visible in sagittal US image. (C) full water-bath setup. Position of the US probe (named TRUS here for transrectal ultrasound) and the endoscope can be seen in the image. For details please click on the title of the video.
   sub_page: /project/evaluation/
 
 
-- head: 6- Color Depth Encoding for a Reliable depth estimation
+- head: 7- Color Depth Encoding for a Reliable depth estimation
   media_type: video
   media_url: /videos/depth_perceptionCropped.mp4
   desc:  Video showing our color depth encoding technique (CDE). (Top) Normal endoscope camera image.  (Bottom) Our CDE visualization with tumor (the small blob that is changing color) and the virtual surgical instrument. The color of the tumor changes (from red to blue) as the distance of the surgical instrument from the tumor increases. For details please click on the title of the video. 
